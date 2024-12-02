@@ -1,0 +1,8 @@
+library verilog;
+use verilog.vl_types.all;
+entity ram4x4complete_vlg_check_tst is
+    port(
+        IO              : in     vl_logic_vector(3 downto 0);
+        sampler_rx      : in     vl_logic
+    );
+end ram4x4complete_vlg_check_tst;
